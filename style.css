@@ -138,6 +138,7 @@ h2 {
 @media screen and (max-width: 800px) {
     .sobre {
         height: 230px;
+        width: 100vw;
     }
     .pfp {
         height: 170px;
