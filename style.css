@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    background-color: #e3e3e3;
+    color: #000000;
+    margin: 0;
+}
+
+.sobre {
+    background-color: #31363c;
+    height: 300px;
+    display: flex;
+}
+
+.pfp {
+    height: 230px;
+    margin-top: 30px;
+    margin-left: 300px;
+    border-radius: 100%;
+}
+
+.informacoes {
+    color: #d9d9d9;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.name {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.desc {
+    margin-top: -35px;
+    margin-left: 2px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.redesociais {
+    color: #fff;
+    height: 40px;
+    font-family: "Zilla Slab", serif;
+    padding-top: 10px;
+}
+
+#discord {
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+#email {
+    margin-top: 4px;
+    margin-left: 1px;
+    font-size: 18px;
+}
+
+.location {
+    display: flex;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+.textRedeSociais {
+    margin-left: 3px;
+    margin-top: -3px;
+    font-size: 17px;
+    padding: 2px;
+}
+
+i {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+}
+
+
+a:hover {
+    .textRedeSociais {
+        text-decoration: underline;
+    }
+}
+
+.aboutme, .projetos {
+    margin-left: 300px;
+    color: #000
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Zilla Slab", serif;
+}
+
+.aboutme p {
+    font-size: 20px;
+    margin-top: -27px;
+    font-family: "Zilla Slab", serif;
+}
+
+.projetosDisplay {
+    display: flex;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+
+.projeto {
+    height: 250px;
+    margin-left: 20px;
+    width: 500px;
+    border: solid 1px #414141;
+    border-radius: 5px;
+    transition: box-shadow .3s;
+}
+
+.projeto:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2); 
+}
+
+.content {
+    margin-left: 13px;
+}
+
+.linkGithub {
+    font-family: "Zilla Slab", serif;
+}
