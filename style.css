@@ -137,10 +137,10 @@ h2 {
 
 @media screen and (max-width: 800px) {
     .sobre {
-        height: 250px;
+        height: 230px;
     }
     .pfp {
-        height: 180px;
+        height: 170px;
         margin-top: 30px;
         margin-left: 20px;
         border-radius: 100%;
@@ -148,10 +148,11 @@ h2 {
     
     .informacoes {
         margin-left: 20px;
-        margin-top: -15px;
+        margin-top: -30px;
     }
 
     .aboutme, .projetos {
+        margin-top: -15px;
         margin-left: 20px;
         max-width: 380px;
     }
@@ -165,7 +166,7 @@ h2 {
     .projeto {
         height: 270px;
         margin-left: 20px;
-        max-width: 375px;
+        max-width: 370px;
         border: solid 1px #414141;
         border-radius: 5px;
         transition: box-shadow .3s;
@@ -173,3 +174,7 @@ h2 {
     }
 
   }
+
+@media screen and (max-width: 1170px) {
+    
+}
