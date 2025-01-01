@@ -486,3 +486,61 @@ footer {
         font-size: 0.7rem;
     }
 }
+
+@media (max-height: 678px) {
+    .apresentacao {
+        height: 120vh;
+    }
+
+    .apresentacao .container .title {
+        font-size: 3rem;
+    }
+
+    .apresentacao .arrow {
+        display: none;
+    }
+
+    .sobremim {
+        height: 150vh;
+    }
+
+    .title {
+        font-size: 2.3rem;
+    }
+
+    .sobremim .container {
+        height: 55vh;
+    }
+
+    .containerlinguagens .linguagens {
+        font-size: 2.3rem !important;
+        gap: 0.7vh !important;
+    }
+
+    .projetos {
+        height: 165vh;
+    }
+
+    .projetos .containers {
+        gap: 10px;
+    }
+
+    .projetos .container {
+        height: 50vh !important;
+    }
+
+    .social {
+        height: 10vh;
+        margin-top: 0px !important;
+    }
+
+    .social .socialmedias {
+        gap: 5vh !important;
+        font-size: 2.3rem !important;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
