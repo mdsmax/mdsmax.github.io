@@ -501,19 +501,24 @@ footer {
     }
 
     .sobremim {
-        height: 150vh;
+        height: 135vh;
     }
 
     .title {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .sobremim .container {
-        height: 55vh;
+        height: 50vh;
+        padding: 0;
+    }
+
+    .sobremim .container .desc {
+        width: 35vh !important;
     }
 
     .containerlinguagens .linguagens {
-        font-size: 2.3rem !important;
+        font-size: 2rem !important;
         gap: 0.7vh !important;
     }
 
@@ -529,6 +534,15 @@ footer {
         height: 50vh !important;
     }
 
+    .projetos .container .title {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .projetos .container .icon {
+        display: none;
+    }
+
     .social {
         height: 10vh;
         margin-top: 0px !important;
@@ -542,5 +556,6 @@ footer {
     footer {
         text-align: center;
         font-size: 0.8rem;
+        height: 10vh;
     }
 }
