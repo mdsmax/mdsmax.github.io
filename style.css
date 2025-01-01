@@ -308,6 +308,7 @@ hr {
 
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
 
     height: 40vh;
@@ -352,6 +353,10 @@ hr {
 
 .container-down-projects .title {
     font-size: 22px;
+}
+
+.container-down-projects a {
+    margin-left: auto;
 }
 
 .social {
