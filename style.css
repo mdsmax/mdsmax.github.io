@@ -425,7 +425,7 @@ footer {
     }
 
     .apresentacao .container .title {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .apresentacao .container .desc {
@@ -438,8 +438,8 @@ footer {
     }
 
     .containerlinguagens .linguagens {
-        font-size: 50px !important;
-        gap: 5px !important;
+        font-size: 2.5rem !important;
+        gap: 0.7vh !important;
     }
 
     hr {
@@ -462,11 +462,16 @@ footer {
         height: 40vh;
     }
 
+    .sobremim .container .icon {
+        display: none;
+    }
+
     .container-down-projects {
         display: none !important;
     }
 
     .social {
+        margin: 10px;
         height: 30vh;
         display: flex;
         flex-direction: column;
